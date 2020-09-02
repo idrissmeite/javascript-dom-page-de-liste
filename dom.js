@@ -1,0 +1,12 @@
+var elemListe = document.querySelector('#items');
+console.log(elemListe.parentNode);
+elemListe.parentNode.style.backgroundColor = '#64f5f4';
+console.log(elemListe.parentNode.parentNode.parentNode);
+var elemListe = document.querySelector('#items');
+console.log(elemListe.parentElement);
+elemListe.parentElement.style.backgroundColor = '#f4f4f4';
+console.log(elemListe.parentElement.parentElement.parentElement);
+console.log(elemListe.childNodes);
+console.log(elemListe.children);
+console.log(elemListe.children[1]);
+elemListe.children[1].style.backgroundColor = 'yellow';
